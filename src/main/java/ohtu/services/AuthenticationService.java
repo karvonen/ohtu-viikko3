@@ -57,8 +57,8 @@ public class AuthenticationService {
     }
     
     private boolean invalidPassword(String password) {
-        if (!password.length() < 8) return true;
-        if (password.matches("^[a-zA-Z]+$")) return true;
+        if (password.length() < 8) return true;
+        if (!password.matches("^[a-zA-Z]+$")) return true;
         return false;
     }
 }
