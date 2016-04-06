@@ -34,7 +34,7 @@ public class App {
             String command = io.readLine(">");
 
             if (command.isEmpty()) break;
-             else handleCommand(command);
+            else handleCommand(command);
 
         }
     }
