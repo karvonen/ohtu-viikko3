@@ -35,7 +35,7 @@ public class App {
 
             if (command.isEmpty()) break;
             else handleCommand(command);            
-         }
+        }
     }
 
     private void handleCommand(String command) {
