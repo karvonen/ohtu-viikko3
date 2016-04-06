@@ -37,6 +37,21 @@ public class App {
             else handleCommand(command);
 
         }
+        {
+            
+        }
+        {
+            
+                     }
+        {
+            
+             }
+        {
+        
+         }
+        {
+            
+         }
     }
 
     private void handleCommand(String command) {
