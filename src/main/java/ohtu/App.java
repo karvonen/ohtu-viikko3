@@ -1,5 +1,6 @@
 package ohtu;
 
+import ohtu.data_access.FileUserDAO;
 import ohtu.data_access.InMemoryUserDao;
 import ohtu.data_access.UserDao;
 import ohtu.io.ConsoleIO;
@@ -66,6 +67,14 @@ public class App {
 //        IO io = new ConsoleIO();
 //        AuthenticationService auth = new AuthenticationService(dao);
 //        new App(io, auth).run();
+        
+//        
+//        UserDao dao = new FileUserDAO("salasanat.txt");
+//        IO io = new ConsoleIO();
+//        AuthenticationService auth = new AuthenticationService(dao);
+//        new App(io, auth).run();
+        
+        
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
 
         App application = ctx.getBean(App.class);
